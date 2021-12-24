@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">ajg-todo-app</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="ajg_todo_app">AJG TODO-APP</string>
+    <string name="full_name">Full Name</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="update_todo">Update Todo</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="save">Save</string>
+    <string name="create_todo">Create Todo</string>
+    <string name="search">Search</string>
 </resources>

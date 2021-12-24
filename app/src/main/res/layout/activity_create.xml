@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.todo.CreateActivity"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/create_tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/create_todo"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/create_tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:text="@string/name"
+        android:layout_below="@+id/create_tv_title"
+        />
+
+    <EditText
+        android:id="@+id/create_et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/create_tv_name"
+        android:singleLine="true"/>
+
+    <TextView
+        android:id="@+id/create_tv_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_below="@id/create_et_name"
+        android:text="@string/description"/>
+
+    <EditText
+        android:id="@+id/create_et_description"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/create_tv_description"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/create_btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/create_et_description"
+        android:text="@string/save"/>
+
+</RelativeLayout>
