@@ -13,4 +13,7 @@
     <string name="save">Save</string>
     <string name="create_todo">Create Todo</string>
     <string name="search">Search</string>
+    <string name="todo_name">Todo Name</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
 </resources>
