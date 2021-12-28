@@ -30,6 +30,7 @@
         android:id="@+id/create_et_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/bg_form"
         android:layout_below="@+id/create_tv_name"
         android:singleLine="true"/>
 
@@ -46,13 +47,21 @@
     <EditText
         android:id="@+id/create_et_description"
         android:layout_width="match_parent"
-        android:layout_below="@+id/create_tv_description"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:gravity="top|start"
+        android:maxLines="8"
+        android:lines="8"
+        android:background="@drawable/bg_form"
+        android:scrollbars="vertical"
+        android:layout_below="@+id/create_tv_description" />
 
     <Button
         android:id="@+id/create_btn_save"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg_button"
         android:layout_below="@id/create_et_description"
         android:text="@string/save"/>
 

@@ -27,6 +27,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/full_name"
             android:singleLine="true"
+            android:background="@drawable/bg_form"
             android:textSize="16sp"
             android:inputType="text"/>
 
@@ -36,6 +37,8 @@
             android:layout_height="wrap_content"
             android:hint="@string/username"
             android:singleLine="true"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_form"
             android:textSize="16sp"
             android:inputType="text"/>
 
@@ -45,8 +48,10 @@
             android:layout_height="wrap_content"
             android:hint="@string/email"
             android:singleLine="true"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_form"
             android:textSize="16sp"
-            android:inputType="text"/>
+            android:inputType="textEmailAddress"/>
 
         <EditText
             android:id="@+id/register_et_password"
@@ -55,12 +60,16 @@
             android:singleLine="true"
             android:hint="@string/password"
             android:textSize="16sp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_form"
             android:inputType="textPassword"/>
 
         <Button
             android:id="@+id/register_btn_register"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_button"
             android:text="@string/register" />
 
     </LinearLayout>

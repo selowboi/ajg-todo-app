@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/ANJO/AndroidStudioProjects/ajgtodoapp/app/src/main/res/layout/activity_create.xml" value="0.3484375" />
+        <entry key="..\:/Users/ANJO/AndroidStudioProjects/ajgtodoapp/app/src/main/res/drawable/bg_button.xml" value="0.3195" />
+        <entry key="..\:/Users/ANJO/AndroidStudioProjects/ajgtodoapp/app/src/main/res/drawable/bg_form.xml" value="0.3195" />
+        <entry key="..\:/Users/ANJO/AndroidStudioProjects/ajgtodoapp/app/src/main/res/drawable/bg_form_search.xml" value="0.3195" />
+        <entry key="..\:/Users/ANJO/AndroidStudioProjects/ajgtodoapp/app/src/main/res/drawable/bg_icon_button.xml" value="0.3195" />
+        <entry key="..\:/Users/ANJO/AndroidStudioProjects/ajgtodoapp/app/src/main/res/layout/activity_create.xml" value="0.33" />
         <entry key="..\:/Users/ANJO/AndroidStudioProjects/ajgtodoapp/app/src/main/res/layout/activity_home.xml" value="0.3625" />
         <entry key="..\:/Users/ANJO/AndroidStudioProjects/ajgtodoapp/app/src/main/res/layout/activity_home_item.xml" value="0.29743589743589743" />
         <entry key="..\:/Users/ANJO/AndroidStudioProjects/ajgtodoapp/app/src/main/res/layout/activity_login.xml" value="0.3625" />

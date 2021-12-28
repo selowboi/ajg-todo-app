@@ -27,6 +27,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/username"
             android:singleLine="true"
+            android:background="@drawable/bg_form"
             android:textSize="16sp"
             android:inputType="text"/>
 
@@ -36,6 +37,8 @@
             android:layout_height="wrap_content"
             android:singleLine="true"
             android:hint="@string/password"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_form"
             android:textSize="16sp"
             android:inputType="textPassword"/>
 
@@ -43,6 +46,8 @@
             android:id="@+id/login_btn_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_button"
             android:text="@string/login" />
 
     </LinearLayout>
